@@ -1,0 +1,142 @@
+/* 9_Snake */
+/* CSS Styles */
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+}
+
+#page {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+
+/*========================================*/
+  /* .main-header */
+/*========================================*/
+.main-header {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main-header h1 {
+    height: 100px;
+    width: 630px;
+    margin: 10px auto;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    font-family: "Rock Salt", sans-serif;
+    font-size: 55px;
+    background-color: #F0F0F0;
+}
+
+
+
+/*========================================*/
+  /* .main-section */
+/*========================================*/
+.main-section {
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 0;   /* remove white space between inline-block divs */
+}
+
+.left-menu, .canvas, .right-menu {
+    height: 645px;
+    display: inline-block;
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+/* .canvas */
+.canvas {
+    width: 60%;
+    background-color: #FFF;
+}
+
+.grid {
+    height: 630px;
+    width: 630px;
+    margin: 0 auto;
+    background-color: #FFF;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.grid-box {
+    float: left;
+    background-color: #F0F0F0;
+}
+
+/* .left-menu and .right-menu */
+.left-menu, .right-menu {
+    width: 20%;
+    text-align: center;
+    background-color: #FFF;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 10px;
+    border: 1px solid #605B56;
+    color: #605B56;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.highscore, .score, .guide {
+    width: 80px;
+    text-align: center;
+    color: #605B56;
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+}
+
+.highscore {
+    border-bottom: 1px solid #605B56;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+.instructions {
+    height: 35px;
+    width: 30px;
+    margin-bottom: 4px;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #F0F0F0;
+    font-size: 18px;
+    cursor: default;
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+.guide {
+    font-size: 14px;
+}
+
+
+
+/*========================================*/
+  /* JavaScript CSS */
+/*========================================*/
+.food {
+    height: 12px;
+    width: 12px;
+    border-radius: 100%;
+    background-color: #7FDB6A;
+    margin: 0 auto;
+    box-shadow: inset -2px -2px 7px rgba(0,0,0,.3);
+}
