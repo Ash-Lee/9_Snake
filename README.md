@@ -5,9 +5,10 @@ Practice working with events by building a Snake game.
 
 ##### Skills Developed
 <ul>
-	<li>Created an interactive Snake game capable of reacting to user inputs via the keyboard</li>
-	<li>Use of JavaScript and the jQuery library to solve a wide range of project specific problems</li>
-	<li>Use of the browser developer tools for debugging purposes</li>
+	<li>Created an interactive Snake game capable of reacting to user inputs.</li>
+	<li>Function handlers - Use of the 'which' property within the event object to bind events to specific keyboard inputs.</li>
+	<li>Concise comments to improve readability.</li>
+	<li>Use of the browser developer tools for debugging purposes.</li>
 </ul>
 
 ##### Live Preview
